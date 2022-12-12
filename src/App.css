@@ -1,0 +1,521 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+  font-family:  Red Rose,sans-serif;
+
+}
+
+html, body{
+  width: 100%;
+  margin: 0;
+  font-family:  Red Rose,sans-serif;
+}
+
+h1{
+  color: #DC3E88;
+  font-weight: bold;  
+  font-size: 3rem;
+  
+}
+
+.vector{
+  height: 50px;
+  
+}
+
+.meta{
+  display: flex;
+  margin: 20px;
+  margin-left: 20px;
+  margin-top: 0%;
+}
+
+span{
+  color: #A02279;
+}
+
+a{
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+}
+
+a:hover{
+  color:#A02279
+}
+
+Button{
+  background-color: #A02279!important;
+  border-radius: 3px;
+  color: white !important;
+  border:  #A02279;
+  height: 50px;
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+.home{
+  display: flex;
+  margin-top: auto;
+}
+
+.rent{
+  line-height: 1.5;
+  margin: 20px;
+  margin-top: 70px;
+  margin-left: 30px;
+  
+}
+.rentag{
+  display: inline-block;
+  margin-top: 130px; 
+
+}
+
+.renting{
+  margin: 7px;
+}
+
+.rentage{
+  margin: 30px;
+  margin-left: 75px;
+}
+
+img{
+  /* margin-bottom: 10px; */
+  margin-left: 8px;
+}
+
+.token{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 50px;
+  gap: 250px;
+  background-color: #A02279;
+  color: white;
+  width: 100%;
+  margin-top: 100px;
+  
+} 
+
+h2{
+  font-weight: bolder ;
+  font-size: 3rem;
+  letter-spacing: 2px;
+ 
+  
+}
+
+input{
+  width: 40%;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+.search{
+  border-radius: 5px;
+}
+
+h5{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.nfts{
+  display: flex;
+  background-color: #A02279;
+  color: white;
+  margin-top: 50px;
+}
+
+.nftImg{
+  width: 40%;
+  transform: rotate(-46.02deg);
+  display: block;
+  line-height: 0;
+  margin: auto;
+  
+} 
+
+h2{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+p{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.btn{
+  background: white;
+  color: #A02279;
+  border: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  
+}
+
+.btn:hover{
+  background-color: #A02279;
+}
+
+.twi{
+  width:20%;
+  margin: 0%;
+}
+
+.social{
+  margin: 8%;
+  margin-top: 10px;
+  
+}
+
+h6{
+  margin-top: 20px;
+  margin: 25px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  margin-top: auto;
+  display: flex;
+
+}
+  
+.foot{
+  display: inline-block;
+  margin: 60px;
+  margin-left: 20%;
+}
+
+.foot:hover{
+  color:#A02279
+}
+
+.place:hover{
+  color:#A02279
+}
+
+.about:hover{
+  color:#A02279
+}
+ 
+h4{
+  text-align: left;
+  font-size: 20px;
+}
+
+.place, .about{ 
+  margin: 60px;
+}
+
+.comm{
+  text-align: center;
+  background-color: #A02279;
+  color: white;
+  height: 200px;
+  font-weight: bolder;
+ 
+}
+
+.stay{
+  margin: 50px; 
+  margin-right: 60px; 
+  
+}
+
+.group{
+  margin-right: 80px;
+  margin-bottom: 40px;
+  width: 25%;
+  height: 25%;
+}
+
+.castle{
+  display: flex;
+  margin-bottom: 50px;
+  gap:50px;
+  font-family: cursive;
+  font-size: 12px;
+}
+
+.castle:hover{
+  color: #A02279;
+}
+
+.loggo{
+  margin: auto;
+}
+
+.link{
+    margin-left: 65px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1024px){
+  .castle{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+    body, html{
+      overflow-x: hidden;
+      width: 100%;
+      margin: 0;
+       
+ }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  h1{
+     font-size: 14px;
+    
+ }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .nav-logo{
+     /* margin-left: 10px; */
+     margin-top: 0;
+     margin-bottom: 0;
+    
+ }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .vector{
+     width: 15px;
+     height: 15px;
+     
+ }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  h2{
+    width: 120px;
+    font-size: 1rem;
+    line-height: 1.7;
+    overflow-wrap: break-word;
+    font-weight: 30px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  p{
+    width: 100px;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    margin-top: 0;
+    font-size: 8px;
+   
+  }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .sea{
+    margin-left: 20px;
+    width: 60px;
+    height: 30px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .search{
+    width: 60px; 
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .token{
+    display: block;
+    margin-top: 30px;
+    margin-right: 15px;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .mb{
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  h5{
+    width: 120px;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-right: 0px;
+      
+
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .group{
+    width: 35%;
+    height: 50%;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .btn{
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .nftImg{
+    width: 40%;
+    height: 40%;
+    margin-left: 20px
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .nfts{
+    display: block;
+    margin-top: 10px;
+    margin-left: 35px;
+    
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .home{
+    display: block;  
+ 
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .rentag{
+    top: 10%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .renting{
+      width: 32%;
+      height: 32%;
+      display: block;  
+      margin-left: 60px;
+      margin-bottom: 10px; 
+     
+ }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+ .rent{
+     margin-top: 40px;
+    
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .rentage{
+      margin-top: 40px;
+      margin-left: 45px;
+     
+   }
+ }
+
+ @media only screen and (min-width: 320px) and (max-width:1128px) {
+  .rentag{
+      margin-top: 3%;
+     
+   }
+  }
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .footer{
+    display: inline-block;
+    margin-left: 35px; 
+    width: 100%;
+
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .foot, .place, .about{ 
+    margin: 30px 0 0 0;
+    
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+   h4{
+    margin-left: 20px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+ h3, h6{
+  font-size: 10px;
+ }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1128px) {
+  .social{
+   margin-left: 20px;
+  }
+ }
+
+ @media only screen and (min-width: 320px) and (max-width:1128px) {
+  .btn{
+      width: 80px;
+      height: 60px;
+      
+  }
+ }
+
+ @media only screen and (min-width: 320px) and (max-width:1128px) {
+  .App{
+      overflow-x: hidden;
+      overflow-y: hidden;
+      width: 100%;
+      
+  }
+ }
+
+
+
+
+ 
+ 
+
+ 
+
+
+
+
+
+
+
