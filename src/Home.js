@@ -64,24 +64,24 @@ function Home (){
                     </div>
 
                     <div className="nfts">
-                    <div className='metaNft'>
-                    <h2>Metabnb NFTs</h2><br></br>
-                    <p>Discover our NFT gift cards collection, loyal customers get amazing gift cards<br></br> which are traded as NFTs. These NFTs gives our customer access to loads of our <br></br> exclusive services.</p>
-                    <button className='btn bg-white text-dark mt-5'>Learn More</button>
-                    </div>
+                        <div className='metaNft'>
+                            <h2>Metabnb NFTs</h2><br></br>
+                            <p>Discover our NFT gift cards collection, loyal customers get amazing gift cards<br></br> which are traded as NFTs. These NFTs gives our customer access to loads of our <br></br> exclusive services.</p>
+                            <button className='btn bg-white text-dark mt-5'>Learn More</button>
+                        </div>
+                            
+                        <div className='nftImg'>
+                            <img className='nftImg'  src={nf} alt='nft 1' />
+                            <img className='nftImg' src={nft} alt='nft 2' />
+                            <img className='nftImg' src={nfts} alt='nft 3' />
                         
-                    <div className='nftImg'>
-                        <img className='nftImg'  src={nf} alt='nft 1' />
-                        <img className='nftImg' src={nft} alt='nft 2' />
-                        <img className='nftImg' src={nfts} alt='nft 3' />
-                    
+                        </div>
                     </div>
                 
 
                     
             </div>
-        </div>
-
+    
            
 
                 
