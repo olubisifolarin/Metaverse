@@ -68,7 +68,7 @@ const NavBar = () => {
                         </Modal.Body>
                         <Modal.Footer>
                         <Modal.Body>
-                            <img src={loggo} className="modal-img" alt="logo2" />Walletconnect
+                            <img src={loggo} className="modal-img loggo" alt="logo2" />Walletconnect
                         </Modal.Body>
 
                         </Modal.Footer>

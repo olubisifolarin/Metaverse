@@ -2,14 +2,13 @@
   box-sizing: border-box;
   margin: 0;
 	padding: 0;
-  font-family:  Red Rose,sans-serif;
-
 }
 
-html, body{
-  width: 100%;
-  margin: 0;
+body{
+  scroll-behavior: smooth;
   font-family:  Red Rose,sans-serif;
+  font-size: 500;
+  font-weight: normal;
 }
 
 h1{
@@ -99,9 +98,14 @@ img{
   background-color: #A02279;
   color: white;
   width: 100%;
+  height: 120px;
   margin-top: 100px;
   
 } 
+
+.mb{
+  font-size: 2rem;
+}
 
 h2{
   font-weight: bolder ;
@@ -183,8 +187,8 @@ p{
 
 h6{
   margin-top: 20px;
-  margin: 25px;
-  text-align: left;
+  margin: 10px;
+  text-align: justify;
   font-size: 15px;
 }
 
@@ -239,7 +243,8 @@ h4{
 }
 
 .group{
-  margin-right: 80px;
+  margin-right: 50px;
+  margin-left: 35px;
   margin-bottom: 40px;
   width: 25%;
   height: 25%;
@@ -248,17 +253,13 @@ h4{
 .castle{
   display: flex;
   margin-bottom: 50px;
-  gap:50px;
+  gap: 40px;
   font-family: cursive;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .castle:hover{
   color: #A02279;
-}
-
-.loggo{
-  margin: auto;
 }
 
 .link{
@@ -266,51 +267,41 @@ h4{
     margin-top: 5px;
 }
 
-@media screen and (max-width: 1024px){
+@media (max-width: 600px){
   .castle{
     display: block;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
-    body, html{
+@media (max-width: 600px){
+    body{
       overflow-x: hidden;
       margin: 0;
       padding: 0;
-      width: 100%;
-     
+    
  }
 
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   h1{
      font-size: 14px;
     
  }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .nav-logo{
-     /* margin-left: 10px; */
      margin-top: 0;
      margin-bottom: 0;
     
  }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
-  .vector{
-     width: 15px;
-     height: 15px;
-     
- }
-}
-
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   h2{
-    width: 140px;
-    font-size: 1rem;
+    width: 320px;
+    font-size: 3rem;
     line-height: 1.7;
     overflow-wrap: break-word;
     font-weight: 30px;
@@ -318,130 +309,130 @@ h4{
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   p{
-    width: 100px;
+    width: 320px;
     overflow-wrap: break-word;
     line-height: 1.5;
     margin-top: 0;
-    font-size: 8px;
+    font-size: 1.4rem;
    
   }
 }
 
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .sea{
     margin-left: 20px;
-    width: 60px;
-    height: 30px;
+    width: 120px;
+    height: 50px;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .search{
-    width: 60px; 
-    height: 30px;
+    width: 120px; 
+    height: 50px;
     margin-right: 20px;
     margin-bottom: 30px;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .token{
     display: block;
     margin-top: 30px;
-    margin-right: 15px;
-    width: 50%;
+    width: 100%;
+    height: 230px;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .mb{
    margin-top: 20px;
-   margin-bottom: 20px;
-
+   margin-bottom: 30px;
+   text-align: center;
+   font-size: 2rem;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   h5{
-    width: 120px;
-    overflow-wrap: break-word;
-    line-height: 1.5;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 2rem;
     margin-right: 0px;
-      
-
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .group{
-    width: 35%;
-    height: 50%;
-    margin-left: 10px;
-    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 30px;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .btn{
     margin-bottom: 25px;
+    width: 120px;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .nftImg{
-    width: 50%;
-    height: 50%;
-    margin-left: 20px
+    width: 70%;
+    height: 70%;
+    margin-left: px
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .nfts{
     display: block;
-    margin-top: 10px;
-    margin-left: 35px;
-    width:fit-content
+    margin-top: 50px;
+    width:100%;
     
+  }
+
+  .comm{
+    margin-top: 50px;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .home{
     display: block;  
  
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .rentag{
     top: 10%;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .renting{
-      width: 35%;
-      height: 35%;
+      width: 85%;
+      height: 90%;
       display: block;  
       margin-left: 60px;
-      margin-bottom: 10px; 
+      margin-bottom: 20px; 
      
  }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
  .rent{
      margin-top: 40px;
     
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .rentage{
       margin-top: 40px;
       margin-left: 45px;
@@ -449,65 +440,46 @@ h4{
    }
  }
 
- @media only screen and (min-width: 320px) and (max-width:1128px) {
+ @media (max-width: 600px) {
   .rentag{
       margin-top: 3%;
      
    }
   }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .footer{
-    display: inline-block;
-    margin-left: 35px; 
+    display: inline-block; 
     width: 100%;
-    width:fit-content
 
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .foot, .place, .about{ 
     margin: 30px 0 0 0;
     
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
    h4{
-    margin-left: 20px;
-    font-size: 13px;
+    margin-left: 10px;
+    font-size: 1.2rem;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
  h3, h6{
-  font-size: 10px;
+  font-size: 1rem;
  }
 }
 
-@media only screen and (min-width: 320px) and (max-width:1128px) {
+@media (max-width: 600px) {
   .social{
    margin-left: 20px;
   }
  }
-
- @media only screen and (min-width: 320px) and (max-width:1128px) {
-  .btn{
-      width: 80px;
-      height: 60px;
-      
-  }
- }
-
- /* @media only screen and (min-width: 320px) and (max-width:1128px) {
-  .App{
-      overflow-x: hidden;
-      overflow-y: hidden;
-      width: 100%;
-      
-  }
- } */
 
 
 
