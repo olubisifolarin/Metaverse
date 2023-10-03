@@ -27,7 +27,6 @@ const NavBar = () => {
 	return (
 		<nav className="navbar">
 			<Link to="/" className="nav-logo">
-                
                 <h1><img className="vector" src={vector} alt="vector" />Meta<span>bnb</span></h1>
 			</Link>
 			<div onClick={handleClick} className="nav-icon">

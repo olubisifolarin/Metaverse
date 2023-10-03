@@ -8,7 +8,7 @@ import instagram from './assets/images/instagram.jpg';
     return(
         <div className="footer">
             <div>
-                <h2><img className="vector" src={vector} alt="vector" />Metabnb</h2>
+                <h2 className='metaFoot'><img className="vector" src={vector} alt="vector" />Metabnb</h2>
                 <div className='social'>
                     <img src={fb} alt="facebook" />
                     <img src={instagram} alt="instagram" />
@@ -16,7 +16,7 @@ import instagram from './assets/images/instagram.jpg';
                 </div>
                 
 
-                <h6>@ 2022 Metabnb</h6>
+                <h6 className='copyright'>@ 2022 Metabnb</h6>
 
             </div>
             

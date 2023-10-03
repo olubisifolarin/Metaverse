@@ -26,8 +26,8 @@ function Home (){
             <div className='project'>
                 <div className='home'>
                     <div className='rent'>
-                        <h2>Rent a <span>Place</span> away from <span>Home</span> in the <span>Metaverse</span></h2>
-                        <p>We provide you access to luxury and affordable houses in the metaverse, get a chance to get a chance to turn your <br></br>imagination to reality at your comfort zone.</p>
+                        <h2 className='provide'>Rent a <span>Place</span> away from <span>Home</span> in the <span>Metaverse</span></h2>
+                        <p className='provide'>We provide you access to luxury and affordable houses in the metaverse, get a chance to get a chance to turn your <br></br>imagination to reality at your comfort zone.</p>
                         <input type="text" className="sea" name="search" placeholder="Search" />
                         <button className="search" type="search">Search</button>
                     </div>
@@ -67,7 +67,7 @@ function Home (){
                         <div className='metaNft'>
                             <h2>Metabnb NFTs</h2><br></br>
                             <p>Discover our NFT gift cards collection, loyal customers get amazing gift cards<br></br> which are traded as NFTs. These NFTs gives our customer access to loads of our <br></br> exclusive services.</p>
-                            <button className='btn bg-white text-dark mt-5'>Learn More</button>
+                            <button className='btn bg-white text-dark m-3'>Learn More</button>
                         </div>
                             
                         <div className='nftImg'>
