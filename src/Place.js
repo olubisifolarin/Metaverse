@@ -27,16 +27,18 @@ function Place  (){
                     <h3>Location</h3>  
                 </div>
                 
-        
-                <img className="group" src={gro} alt='rent 1' /> 
-                <img className="group"src={group} alt='rent 2' />
-                <img className="group"src={ren} alt='rent 3' /> 
-                <img className="group"src={rentage} alt='rent 4' />
-                <img className="group"src={grou} alt='rent 5' />
-                <img className="group"src={rentag} alt='rent 6' />
-                <img className="group"src={rent} alt='rent 7' />
-                <img className="group"src={renta} alt='rent 8' />
-                <img className="group"src={group} alt='rent 9' />
+                <div className="group-place">
+                    <img className="group" src={gro} alt='rent 1' /> 
+                    <img className="group"src={group} alt='rent 2' />
+                    <img className="group"src={ren} alt='rent 3' /> 
+                    <img className="group"src={rentage} alt='rent 4' />
+                    <img className="group"src={grou} alt='rent 5' />
+                    <img className="group"src={rentag} alt='rent 6' />
+                    <img className="group"src={rent} alt='rent 7' />
+                    <img className="group"src={renta} alt='rent 8' />
+                    <img className="group"src={group} alt='rent 9' />
+                </div>
+               
             </div>
         )
     }
