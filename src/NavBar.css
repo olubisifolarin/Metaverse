@@ -50,7 +50,7 @@ Button{
 }
 
 .modal-footer>* {
-    margin-left: -0.5rem;
+    margin-left: -0.8rem;
 }
 
 @media (max-width: 600px) {	
@@ -201,7 +201,7 @@ Button{
 	  
 	  .nav-icon {
 		display: flex;
-		margin-right: 1.5rem;
+		margin-right: 1.8rem;
 		font-size: 2rem;
 	  }
 
